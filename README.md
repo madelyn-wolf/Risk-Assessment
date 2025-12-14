@@ -1,77 +1,95 @@
-# Open-Source Intelligence & Penetration Testing Project
+# Open-Source Intelligence (OSINT) & Penetration Testing Project
 
 ## Overview
-This repository contains a comprehensive **Open-Source Intelligence (OSINT) and Penetration Testing assessment** conducted as part of **IFT 475: Security Analysis** at **Arizona State University**. The project evaluates the security posture of a simulated enterprise environment by combining public-facing intelligence gathering with hands-on penetration testing in a controlled lab setting.
+This repository contains a comprehensive **Open-Source Intelligence (OSINT) and Penetration Testing assessment** conducted as part of **IFT 475: Security Analysis** at **Arizona State University**. The project evaluates the security posture of a real-world organization (CarGurus) by combining publicly available intelligence gathering with hands-on penetration testing in a controlled lab environment.
 
-The assessment focuses on identifying organizational, technical, and human-centered security risks and provides actionable recommendations to improve overall security resilience.
-
----
-
-## Project Scope
-The project covers two primary components:
-
-### 1. Open-Source Intelligence (OSINT)
-- Company profiling and organizational structure analysis  
-- Executive leadership exposure and data broker risk  
-- Financial disclosure visibility and search engine indexing risks  
-- Social media footprint and reconnaissance opportunities  
-- Network footprint analysis using publicly available tools  
-
-### 2. Penetration Testing (Simulated Environment)
-- Assessment of three simulated servers within the Apporto Modular Cyberlab  
-- Network scanning, enumeration, vulnerability identification, and exploitation validation  
-- Tools used include:
-  - **Nmap**
-  - **Enum4Linux**
-  - **Nessus**
-  - **Metasploit**
-  - **Nikto**
+The assessment demonstrates how publicly exposed information, outdated systems, and misconfigured services can significantly expand an organization’s attack surface and increase the risk of both external and insider-driven threats.
 
 ---
 
 ## My Role & Contributions
-I was responsible for **leading the group, documentation effort, and compiling all team contributions into a single, cohesive report**. My specific responsibilities included:
+I served as a **lead contributor** for this project and was responsible for both **research and documentation ownership** across the majority of the report. My contributions included:
 
-- Compiling and organizing all team members’ technical findings into the final document  
-- Writing the following major sections:
-  - **Introduction**
-  - **Scope**
-  - **Company Profile**
-  - **Executive Leadership Analysis**
-  - **Financial Exposure Analysis**
-  - **Recommendations**
-  - **Conclusion**
-- Integrating penetration testing findings into the recommendations section
-- Writing and formatting **all three annexes**:
-  - Annex A – References  
-  - Annex B – Acronyms  
-  - Annex C – Additional Images, Screenshots, and Tables  
-- Ensuring consistency in tone, formatting, and technical clarity across the entire report  
+- Compiling and integrating **all team members’ work** into a single cohesive technical report  
+- Conducting **independent OSINT research** on the organization  
+- Writing the following major sections in full:
+  - Introduction  
+  - Scope  
+  - Company Profile  
+  - Executive Leadership Analysis  
+  - Financial Exposure Analysis  
+  - Security Recommendations  
+  - Conclusion  
+- Integrating relevant findings from the penetration testing portion into the recommendations
+- Creating **all three annexes**, including:
+  - References
+  - Acronyms
+  - Supplemental images, screenshots, and tables
+- Ensuring professional structure, consistency, and technical clarity throughout the document
 
-This role required strong technical writing skills, attention to detail, and the ability to translate complex security findings into clear, professional documentation.
+This work reflects both **technical analysis skills** and **security-focused research, writing, and synthesis abilities**.
+
+---
+
+## Project Scope
+The assessment combines two core components:
+
+### 1. Open-Source Intelligence (OSINT)
+Publicly available data was collected using techniques such as:
+- Google Hacking (advanced search operators)
+- Third-party data broker analysis
+- Corporate and investor disclosures
+- Executive and social media profiling
+- Network footprinting using public tools
+
+The goal was to understand how an attacker could leverage publicly accessible information to support reconnaissance, social engineering, and targeted attacks.
+
+### 2. Penetration Testing (Simulated Environment)
+Three servers within a controlled lab environment were assessed using industry-standard tools:
+- **Nmap**
+- **Enum4Linux**
+- **Nessus**
+- **Metasploit**
+- **Nikto**
+
+Testing focused on identifying exposed services, outdated systems, misconfigurations, and exploitable vulnerabilities while remaining non-destructive.
 
 ---
 
 ## Key Findings
-- Significant exposure of executive personal data through third-party data broker websites  
-- Publicly indexed internal financial documents discoverable through advanced search queries  
-- One well-secured Windows Active Directory Domain Controller with strong authentication controls  
-- Two severely vulnerable servers running outdated operating systems and end-of-life software  
-- Multiple critical vulnerabilities including:
-  - Exposed NFS shares
-  - Weak cryptographic implementations
-  - Unsupported web servers and application frameworks
-  - Misconfigured services increasing attack surface  
+- **Server 1** demonstrated a strong security posture consistent with a well-hardened Active Directory Domain Controller.
+- **Server 2** presented critical risks, including outdated operating systems, exposed NFS shares, weak access controls, and exploitable vulnerabilities.
+- **Server 3** ran end-of-life software with multiple exposed services, weak cryptographic settings, and outdated web components.
+
+Across the organization, OSINT findings revealed:
+- Excessive executive personal data exposure
+- Publicly indexed internal financial documents
+- Increased social engineering and insider threat risk
 
 ---
 
-## Recommendations Summary
-- Remove executive personal data from third-party data brokers  
-- Restrict public access to internal financial and HR documents  
-- Implement least-privilege and zero-trust authentication models  
-- Upgrade and patch all end-of-life systems immediately  
-- Harden exposed services and disable unnecessary ports  
-- Enforce strong password policies and multi-factor authentication  
+## Tools & Technologies Used
+- Kali Linux
+- Nmap
+- Enum4Linux
+- Nessus
+- Metasploit Framework
+- Nikto
+- Google Advanced Search Operators
+- CentralOps
+- Netcraft
+- Shodan
+
+---
+
+## Skills Demonstrated
+- Open-source intelligence (OSINT) analysis
+- Vulnerability assessment & enumeration
+- Risk analysis and security recommendations
+- Technical writing and documentation
+- Research synthesis
+- Security posture evaluation
+- Ethical penetration testing methodology
 
 ---
 
@@ -79,12 +97,18 @@ This role required strong technical writing skills, attention to detail, and the
 - **Course:** IFT 475 – Security Analysis  
 - **Institution:** Arizona State University  
 - **Environment:** Apporto Modular Cyberlab  
-- **Methodology:** OSINT analysis paired with simulated penetration testing  
+- **Purpose:** Educational, non-production security assessment  
 
 ---
 
 ## Disclaimer
-This project was conducted **strictly for educational purposes** in a controlled academic environment. All penetration testing activities were performed on **authorized, simulated systems only**. No real-world systems were targeted.
+This project was conducted **strictly for educational purposes** within a controlled academic environment. All penetration testing was performed on simulated systems. No real-world systems were accessed or harmed.
+
+---
+
+## License
+This repository is shared for **portfolio and professional demonstration purposes**.  
+All rights reserved by the authors. Unauthorized commercial use is not permitted.
 
 ---
 
