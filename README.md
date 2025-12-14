@@ -115,4 +115,5 @@ All rights reserved by the authors. Unauthorized commercial use is not permitted
 ## Author
 Madelyn Wolf
 - Bachelor's of Information Technology, Focus Area: Security
+- Arizona State University
 - Expected Graduation: May 2026, Summa Cum Laude
